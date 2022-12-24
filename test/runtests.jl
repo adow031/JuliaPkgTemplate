@@ -1,4 +1,4 @@
-using Test
+using Test, JuliaPkgTemplate
 
 @testset "Addition tests" begin
     @test add(1,2) ≈ 3 atol = 1e-3
