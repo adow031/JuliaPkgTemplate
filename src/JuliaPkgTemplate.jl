@@ -7,10 +7,9 @@ module JuliaPkgTemplate
 	`a` the first number
 	`b` the second number
 """
-function add(a::Real,b::Real)
-	a+b
+function add(a::Real, b::Real)
+    return a + b
 end
 
-export JADEdata,
-    add
+export JADEdata, add
 end
