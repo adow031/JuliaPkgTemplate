@@ -1,4 +1,4 @@
-![JuliaPkgTemplate](assets/logo.png)
+![JuliaPkgTemplate](docs/src/assets/logo.png)
 
 | **Documentation** | **Build Status** | **Coverage** |
 |:-----------------:|:--------------------:|:----------------:|
@@ -15,8 +15,8 @@ docs, CI, tagging releases, and formatting.
 
 2. Create a new UUID and update Project.toml with package name and dependencies.
 
-	using UUIDs
-	uuid4()
+	`using UUIDs`
+	`uuid4()`
 
 3. Update README.md and docs. In particular, update reference in docs/make.jl.
 
