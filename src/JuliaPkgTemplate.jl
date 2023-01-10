@@ -11,5 +11,5 @@ function add(a::Real, b::Real)
     return a + b
 end
 
-export JADEdata, add
+export add
 end
